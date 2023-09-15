@@ -1,10 +1,6 @@
 {
   "homepage": "https://1amadou.github.io/MyPortfolio.github.io/",
-<<<<<<< HEAD
-  "name": "MyPortefolio",
-=======
   "name": "MyPortfolio",
->>>>>>> 67922e4 (MyPortfolio)
   "version": "0.1.0",
   "private": true,
   "dependencies": {

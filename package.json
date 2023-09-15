@@ -1,12 +1,17 @@
 {
   "homepage": "https://1amadou.github.io/MyPortfolio.github.io/",
+<<<<<<< HEAD
   "name": "MyPortefolio",
+=======
+  "name": "MyPortfolio",
+>>>>>>> 67922e4 (MyPortfolio)
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "colorthief": "^2.3.0",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
+    "font-awesome": "^4.7.0",
     "gh-pages": "^2.1.1",
     "jest-canvas-mock": "^2.3.1",
     "lottie-react": "^2.4.0",

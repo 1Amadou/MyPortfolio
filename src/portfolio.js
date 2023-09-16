@@ -47,11 +47,21 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
+  leftDescription: `
+  Hello, my name is Amadou CISSE, a student majoring in Mechatronics and Robotics at the Faculty of Science and Technology in Bamako. I'm also a graduate of Dive into Code (https://diver.diveintocode.jp) with the "Advanced Web Engineering Course" (Ruby) training program, which gave me a solid foundation in the field of computer science. Recently, I achieved certification as a FullStack developer through this program.
+
+  I am continuously passionate about learning and evolving in this new domain, which, for me, is not very different from what I study at the university. 
+
+  I've been fortunate to attend various workshops, including project management and embedded systems, among others, at the Francophone Employability Center. These training sessions have broadened my horizons in the field of entrepreneurship.
+
+  I enjoy thinking and working on ambitious projects that have a positive impact on the world and attempting to solve challenges.
+`
+,
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡Strong skills in web page creation with HTML and CSS, ready to design professional websites"
+      "⚡skills in web page creation with HTML and CSS, ready to design professional websites"
     ),
     emoji("⚡ Proficiency in data management in databases using SQL, ready to create robust applications"),
     emoji(
@@ -159,7 +169,7 @@ const educationInfo = {
       logo: require("./assets/images/Diver.png"),
       subHeader: "Web engineering advanced course (Ruby)",
       duration: "Octobre 2022 - Août 2023",
-      desc: "<a href='https://diver.diveintocode.jp/' target='_blank'>Dive into</a> Web engineering advanced course (Ruby)",
+      desc: "visited this link for more information on the school 'https://diver.diveintocode.jp/'",
       // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
@@ -172,7 +182,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -180,7 +190,7 @@ const techStack = {
     },
     {
       Stack: "Project Manegement",
-      progressPercentage: "90%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Programming",
@@ -378,7 +388,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {

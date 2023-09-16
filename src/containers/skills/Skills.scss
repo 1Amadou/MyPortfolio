@@ -3,15 +3,22 @@
 .skills-main-div {
   display: flex;
   width: 100%;
-  overflow: hidden;
+  flex-direction: column; /* Changez la direction pour empiler le contenu verticalement */
+  align-items: center; /* Centrez horizontalement le contenu dans la colonne */
+  text-align: center; /* Centrez le texte horizontalement */
 }
 
 .skills-text-div {
-  margin-left: 50px;
+  margin-left: 0; /* Supprimez la marge à gauche */
+  max-width: 800px; /* Ajustez la largeur maximale du texte */
+  padding: 20px; /* Espace autour du texte */
+  background-color: #f0f0f0;
+  margin-bottom: 20px; /* Espace en bas du texte */
 }
 
 .skills-main-div > * {
   flex: 1;
+  width: 100%;
   margin-bottom: 30px;
 }
 
@@ -24,6 +31,7 @@
   font-size: 56px;
   font-weight: 400;
 }
+
 .subTitle {
   color: $subTitle;
 }
@@ -62,15 +70,18 @@
     order: 2;
   }
 }
+
 .skills-description-div {
-  flex-grow: 1; /* Permet à la div de description de s'agrandir avec le contenu */
-  min-height: 100px; /* Définit une hauteur minimale */
+  flex-grow: 1;
+  min-height: 100px;
   padding: 20px;
-  background-color: #f0f0f0; /* Couleur de fond de la section de description */
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.skills-description {
-  font-size: 18px;
-  line-height: 1.5;
-  color: #333; /* Couleur du texte */
+.skills-description video {
+  max-width: 100%;
+  height: auto;
 }

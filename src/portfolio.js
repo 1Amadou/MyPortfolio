@@ -43,7 +43,11 @@ const socialMediaLinks = {
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
-
+// Video Section
+const videoSection = {
+  video: require("./assets/my_video.mp4"), // Replace "my_video.mp4" with the name of your video file
+  display: true // Set true to display this section, defaults to false
+};
 // Skills Section
 
 const skillsSection = {
@@ -85,6 +89,7 @@ const skillsSection = {
       "⚡ Proficient in project management methodologies, including planning, organizing, and executing projects effectively"),
     emoji(
       "⚡ Proficient in hardware-software integration, microcontroller programming, and designing embedded solutions for optimal performance."),
+      
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -425,5 +430,6 @@ export {
   podcastSection,
   contactInfo,
   twitterDetails,
-  isHireable
+  isHireable,
+  videoSection
 };

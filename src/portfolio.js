@@ -145,6 +145,10 @@ softwareSkills: [
     fontAwesomeClassname: "fab fa-wordpress"
   },
   {
+    skillName: "Firebase",
+    "fontAwesomeClassname": "fab fa-fire"
+  },
+  {
     skillName: "docker",
     fontAwesomeClassname: "fab fa-docker"
   }
